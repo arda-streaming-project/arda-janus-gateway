@@ -1,0 +1,13 @@
+general: {
+    json = "indented"                               # Whether the JSON messages should be indented (default),
+    base_path = "/janus"                            # Base path to bind to in the web server (plain HTTP only)
+    http = true                                     # Whether to enable the plain HTTP interface
+    port = 8088                                     # Web server HTTP port
+    https = false                                   # Whether to enable HTTPS (default=false)
+}
+
+cors: {
+}
+
+certificates: {
+}
